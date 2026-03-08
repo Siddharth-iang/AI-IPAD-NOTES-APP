@@ -1,4 +1,9 @@
 // Functional Component and Class Components are 2 react components
+<<<<<<< HEAD
+=======
+// Ref is used to store a value in react component but not re-render the component
+// Revisit the functions 
+>>>>>>> f737daab2c7ed0899cb573b4ec9ba080427b095d
 
 // useRef - Used to directly access a DOM element. Here it is used to access the canvas element.
 // useState - Used to store data that changes during the lifecycle of the component.
