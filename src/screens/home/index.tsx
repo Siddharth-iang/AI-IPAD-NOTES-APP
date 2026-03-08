@@ -1,5 +1,6 @@
 // Functional Component and Class Components are 2 react components
 // Ref is used to store a value in react component but not re-render the component
+// Revisit the functions 
 
 import { useState, useRef } from "react";
 
