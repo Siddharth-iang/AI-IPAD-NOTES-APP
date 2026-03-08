@@ -1,4 +1,6 @@
 // Functional Component and Class Components are 2 react components
+// Explanation comments
+// Make sure the Canvas board can be used only if content_script.js error is gone !!!
 <<<<<<< HEAD
 =======
 // Ref is used to store a value in react component but not re-render the component
