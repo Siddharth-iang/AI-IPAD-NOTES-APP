@@ -2,7 +2,7 @@
 // Explanation comments
 // Make sure the Canvas board can be used only if content_script.js error is gone !!!
 // Ref is used to store a value in react component but not re-render the component
-// Revisit the functions 
+// Added Colors for Beauty ! 
 
 // useRef - Used to directly access a DOM element. Here it is used to access the canvas element.
 // useState - Used to store data that changes during the lifecycle of the component.
