@@ -1,4 +1,6 @@
-// Functional Component and Class Components are 2 react components 
+// Functional Component and Class Components are 2 react components
+// Explanation comments
+// Make sure the Canvas board can be used only if content_script.js error is gone !!!
 // Ref is used to store a value in react component but not re-render the component
 // Revisit the functions 
 
@@ -98,8 +100,8 @@ export default function Home() {
             const ctx = canvas.getContext('2d');
             // If the context exists, set the stroke style to white and draw a line to the mouse cursor.
             if(ctx){
-                // Set the stroke style to white.
-                ctx.strokeStyle = 'color';
+                // Set the stroke style to the selected color.
+                ctx.strokeStyle = color;
                 // Draw a line to the mouse cursor.
                 ctx.lineTo(e.nativeEvent.offsetX, e.nativeEvent.offsetY);
                 // Actually draws the line on the canvas.
